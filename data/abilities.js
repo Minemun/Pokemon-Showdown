@@ -65,7 +65,7 @@ exports.BattleAbilities = {
 		num: 106,
 	},
 	"aerilate": {
-		desc: "This Pokemon's Normal-type moves become Flying-type moves and have their power multiplied by 1.2. This effect comes after other effects that change a move's type, but before Ion Deluge and Electrify's effects.",
+		desc: "This Pokemon's Normal-type moves become Flying-type moves (except Breakneck Blitz) and have their power multiplied by 1.2. This effect comes after other effects that change a move's type, but before Ion Deluge and Electrify's effects.",
 		shortDesc: "This Pokemon's Normal-type moves become Flying type and have 1.2x power.",
 		onModifyMovePriority: -1,
 		onModifyMove: function (move, pokemon) {
